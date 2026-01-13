@@ -1438,7 +1438,7 @@ function getUrlParameters() {
 // Function to fetch data from Google Apps Script
 async function fetchProductData(salesOrderNo, itemNo) {
     // 使用现有的GAS 1 web app URL
-    const gasWebAppUrl = 'https://script.google.com/macros/s/AKfycbywd5h1QN9R9TIlDZ77GwDzPd9gAq9CaMHdolkTWQUlEF9vWm4tLMmtyEJT5j5m4Lsi/exec';
+    const gasWebAppUrl = 'https://script.google.com/macros/s/AKfycbxB1seYsi3QCOyIHrWyCoWAo_rUQBJj-MlLZy88ZSCd3gLLIHIuJVYQMoJgrMzpederXQ/exec';
     
     const response = await fetch(`${gasWebAppUrl}?salesOrderNo=${encodeURIComponent(salesOrderNo)}&itemNo=${encodeURIComponent(itemNo)}`);
     
@@ -1820,7 +1820,7 @@ let targetSpreadsheetInfo = {
 };
 
 // GAS Web App URL for submitting data
-const GAS_SUBMIT_URL = 'https://script.google.com/macros/s/AKfycbywd5h1QN9R9TIlDZ77GwDzPd9gAq9CaMHdolkTWQUlEF9vWm4tLMmtyEJT5j5m4Lsi/exec';
+const GAS_SUBMIT_URL = 'https://script.google.com/macros/s/AKfycbxB1seYsi3QCOyIHrWyCoWAo_rUQBJj-MlLZy88ZSCd3gLLIHIuJVYQMoJgrMzpederXQ/exec';
 
 // 卡片内容和iframe数据
 const cardContents = [
