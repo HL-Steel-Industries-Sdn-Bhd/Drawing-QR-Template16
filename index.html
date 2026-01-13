@@ -2809,7 +2809,7 @@ function submitDataToGoogleSheets(submissionData) {
     document.getElementById('form_itemNo').value = submissionData.itemNo;
     
     // 设置表单action到GAS Web App
-    document.getElementById('dataForm').action = GAS_SUBMIT_URL + '?action=submit';
+    document.getElementById('dataForm').action = GAS_SUBMIT_URL;
     
     // 提交表单
     document.getElementById('dataForm').submit();
